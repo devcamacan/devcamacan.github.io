@@ -1,5 +1,6 @@
 body{
-background:#F0FFFF;
+background:#505050;
+font-family:Verdana;
 }
 
 .photo{
@@ -12,11 +13,22 @@ border-radius:50%;
 	color: red;
 	}
 	
+	#title{
+font-size:40px;
+text-transform:uppercase;
+}
+
+a {
+text-decoration:line-through;
+color:#000;
+}
+	
 	.post_title{
 font-sizer:16px;
 font-style: italic;
 margin:0;
 margin-bottom:15px;
+text-transform:capitalize;
 }
 
 .post{
